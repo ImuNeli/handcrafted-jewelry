@@ -1,0 +1,41 @@
+/* Kaisei Decol - 400 */
+
+@font-face {
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/KaiseiDecol-Regular.ttf');
+}
+
+/* Saint Font - 400 */
+
+@font-face {
+    font-family: 'Saint Font';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/Saint\ Regular.ttf');
+}
+
+/* main style */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 10px;
+    line-height: 14.48px;
+    font-family: 'Kaisei Decol', sans-serif;
+}
