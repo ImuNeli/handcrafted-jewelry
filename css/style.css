@@ -185,17 +185,29 @@ a {
     position: absolute;
     top: 90px;
     left: 238px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .home-page-info__svg2 {
     position: absolute;
     top: 21px;
     left: 61px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .home-page-info img {
     max-width: 421px;
     height: auto;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .home-page-info__title {
