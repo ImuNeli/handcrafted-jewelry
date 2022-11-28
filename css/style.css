@@ -52,6 +52,7 @@ body {
     font-family: "Kaisei Decol", sans-serif;
     font-size: 10px;
     line-height: 14px;
+    font-weight: 400;
     color: var(--neutral-400);
     background-color: var(--neutral-100);
 }
@@ -95,6 +96,7 @@ a {
     width: 245px;
     padding: 5px;
     font-size: 14px;
+    font-weight: 400;
     color: var(--neutral-400);
     border: none;
     outline: none;
@@ -213,6 +215,7 @@ a {
     font-family: "Saint Font";
     font-size: 36px;
     line-height: 40px;
+    font-weight: 400;
     color: var(--neutral-200);
 }
 
@@ -220,6 +223,7 @@ a {
     padding: 10px;
     font-size: 24px;
     line-height: 35px;
+    font-weight: 400;
     color: var(--neutral-200);
 }
 
@@ -238,6 +242,7 @@ a {
     padding: 10px 12px;
     font-size: 14px;
     line-height: 20px;
+    font-weight: 400;
     color: var(--neutral-500);
     background-color: var(--neutral-200);
     border-radius: 5px;
@@ -266,6 +271,7 @@ a {
     font-family: "Saint Font";
     font-size: 36px;
     line-height: 40px;
+    font-weight: 400;
     color: var(--neutral-500);
 }
 
@@ -302,20 +308,19 @@ a {
     flex-grow: 0;
     flex-shrink: 0;
     background-color: var(--primary-100);
-    border: 1px solid #ffffff;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .aside-closed__icons {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 28px;
+    padding-top: 24px;
     padding-left: 20px;
-    padding-right: 10px;
+    padding-right: 5px;
 }
 
 .icon-arrow-right {
+    padding: 10px;
     cursor: pointer;
 }
 
@@ -330,8 +335,6 @@ a {
     bottom: 0;
     width: 236px;
     background-color: var(--primary-100);
-    border: 1px solid #ffffff;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .aside-opened_visible {
@@ -340,15 +343,23 @@ a {
     transition: 0.3s;
 }
 
+.aside-opened__icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    padding-left: 20px;
+    padding-right: 33px;
+}
+
 .icon-close {
-    padding: 35px;
-    padding-left: 178px;
+    padding: 10px;
     cursor: pointer;
 }
 
 .nav {
     padding: 0;
-    padding-top: 44px;
+    padding-top: 70px;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -368,13 +379,11 @@ a {
 }
 
 .nav__item span {
-    /* visibility: hidden; */
     display: none;
     padding: 5px;
 }
 
 .nav__item:hover span {
-    /* visibility: visible; */
     display: inline;
 }
 
@@ -391,6 +400,7 @@ a {
 .nav__item a {
     font-size: 14px;
     line-height: 20px;
+    font-weight: 400;
     display: block;
     padding: 10px;
     color: var(--neutral-500);

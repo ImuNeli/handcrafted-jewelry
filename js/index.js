@@ -1,4 +1,4 @@
-const openSidebar = document.querySelector('.aside-closed');
+const openSidebar = document.querySelector('.icon-arrow-right');
 const closeSidebar = document.querySelector('.icon-close');
 const sidebar = document.querySelector('.aside-opened');
 
