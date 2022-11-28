@@ -58,6 +58,7 @@ body {
 
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 /* wrapper style */
@@ -98,6 +99,7 @@ a {
     border: none;
     outline: none;
     background-color: inherit;
+    cursor: pointer;
 }
 
 .search__element {
@@ -136,6 +138,7 @@ a {
 .account {
     padding: 10px;
     stroke: var(--neutral-500);
+    cursor: pointer;
 }
 
 .basket:hover,
@@ -155,10 +158,15 @@ a {
     display: flex;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 
 .lang:hover .arrow-rotate {
     transform: rotate(90deg);
+    transition: 0.6s;
+}
+
+.arrow-rotate {
     transition: 0.6s;
 }
 
@@ -307,6 +315,10 @@ a {
     padding-right: 10px;
 }
 
+.icon-arrow-right {
+    cursor: pointer;
+}
+
 .aside-opened {
     visibility: hidden;
     transform: translateX(-100%);
@@ -331,6 +343,7 @@ a {
 .icon-close {
     padding: 35px;
     padding-left: 178px;
+    cursor: pointer;
 }
 
 .nav {
